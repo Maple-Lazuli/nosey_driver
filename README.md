@@ -11,7 +11,7 @@ This repo has 3 primary components:
 
 ## Android Component
 
-![Android](./Resources/android_app.png){width=300}
+![Android](./Resources/android_app.png)
 
 The android app requests the location service ever few 200 miliseconds. Once it has the service, it writes the latitude, longitude, and time to a file under downloads.
 
@@ -46,4 +46,4 @@ The jupyter notebook in the `notebook` directory reads in the `location.txt` fro
 
 From there, the dataframe is used in conjunction with plotly to create an interative mapping of WAP detections, power, encryption, and location.
 
-![Android](./Resources/wifi_map.png){width=300}
+![Android](./Resources/wifi_map.png)
